@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.txt-center{
+    text-align: center;
+    color: #084655;
+}
+.jstfy{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4d9f6;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(73, 198, 247, 0.2);
+}
+.jstfy-link a{
+    display: block;
+    color: rgb(242, 220, 220);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.jstfy-link a:hover{
+    background-color: #143b4f;
+}
+.active{
+    background-color: #143b4f;
+}
+.senter{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.marjin{
+    margin-bottom: 20px;
+}
+.btn-tambah{
+    color: #fff;
+    background-color: #3b97b3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-tambah:hover{
+    background-color: #219296;
+}
+.btn-balik{
+    color: #fff;
+    background-color: #398d9e;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-balik:hover{
+    background-color: #225a66;
+}
+.btn-kirim{
+    color: #fff;
+    background-color:  #219296;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+.btn-kirim:hover{
+    background-color:  #185d5f;
+}
+.btn-edit{
+    color: #fff;
+    background-color:  #219296;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-edit:hover{
+    background-color:  #219296;
+}
+.btn-hapus{
+    color: #fff;
+    background-color:  #219296;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-hapus:hover{
+    background-color:  #14585b;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table td, table th {
+    border: 1px solid #e8e8e8;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #e8e8e8;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f6d82;
+    color: white;
+}
+.error{
+    background-color: #fca1a1;
+    color: #972d2d;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+.dropbtn {
+    border: none;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color:  #219296;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #1d4a55; color: #fff}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content .active-content {background-color:#1d4a55; color: #fff}
+.form-center{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+.zenter{
+    display: block;
+    margin: 20px auto;
+}
+.notif{
+    background-color: #abd2ff;
+    color:  #219296;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50%;
+    margin: 20px auto;
+}
+.notif-red{
+    background-color: #ed8787;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50%;
+    margin: 20px auto;
+}
+.a-hrep{
+    color:  #219296;
+}
+.btn-book{
+    color: #fff;
+    background-color:  #219296;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn-book:hover{
+    background-color:  #219296;
+}
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.flex-row-item{
+    flex: 50%; /*grow | shrink | basis */
+    height: 70px;
+    width: 100px;
+    margin: auto;
+}
+.labelu, .inputto{
+    display: block;
+}
+.btn-kirim-book{
+    color: #fff;
+    background-color:  #219296;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+.btn-kirim-book:hover{
+    background-color: #219296;
+}
+.btn-bulik{
+    color: #fff;
+    background-color:  #219296;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-bulik:hover{
+    background-color:  #165b5d;
+}
+.balik-duwur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-balik-duwur{
+    display: inline-block;
+}
