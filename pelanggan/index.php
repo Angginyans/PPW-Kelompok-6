@@ -39,5 +39,5 @@ $row = mysqli_fetch_assoc($rsl);
 </html>
 <?php
 }else {
-    echo "Anda Belum Login, silahkan Login <a href='http://localhost/raja_tgs/login/index.php'>Di sini</a>";
+    echo "Anda Belum Login, silahkan Login <a href='http://localhost/sistem_informasi/login/index.php'>Di sini</a>";
 }
